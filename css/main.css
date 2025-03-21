@@ -49,6 +49,16 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  font-size: 3vw; /* Escalable según el ancho de pantalla */
+}
+
+/* Opcionalmente puedes ajustar en pantallas muy pequeñas */
+@media screen and (max-width: 600px) {
+  .titulo {
+    font-size: 6vw;
+    letter-spacing: 5px;
+    margin-bottom: 120px;
+  }
 }
 @keyframes fadeIn {
   from {
