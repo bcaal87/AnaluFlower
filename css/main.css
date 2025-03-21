@@ -1656,25 +1656,4 @@ h1 {
   }
 }
 
-.titulo {
-  top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  font-size: 2.2vmin;
-  margin: 0 auto;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.4); /* mejora contraste */
-  border-radius: 10px;
-  z-index: 2;
-}
-
-/* Versión responsiva para pantallas pequeñas */
-@media only screen and (max-width: 600px) {
-  .titulo {
-    font-size: 4vw;
-    top: 3%;
-    padding: 0.8rem;
-  }
-}
 /* Agregar más estilos según sea necesario */
