@@ -19,26 +19,31 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
-
 #lyrics {
-  font-size: 28px;
+  font-size: clamp(18px, 3vw, 28px);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 20%;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
+  text-align: center;
+  padding: 0 10px;
+  max-width: 90%;
 }
-@media only screen and (max-width: 600px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-  #lyrics {
-      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
-      letter-spacing: 3px;
-  }
 
+@media only screen and (max-width: 600px) {
+  #lyrics {
+    top: 6%;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
 }
+
+
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
