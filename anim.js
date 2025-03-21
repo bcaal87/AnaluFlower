@@ -28,7 +28,7 @@ var lyricsData = [
   { text: "La vida de tu mano es mejor", time: 115 },
   { text: "Esos ojitos, de mi corazón, son el motor", time: 119 },
   { text: "Siempre daré el extra para que lo tengas todo", time: 125 },
-  { text: "Voy a cuidar siempre de ti y de nuestro amor", time: 128 },
+  { text: "Voy a cuidar siempre de ti y de nuestro amor", time: 127 },
   { text: "Porque eres mi tesoro ANALY", time: 129 },
   { text: "M O R E N I T A - P R E C I O S A", time: 132 },
 ];
